@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 import os
 
-st.set_page_config(page_title="Smart Hospital Patient Navigator", page_icon="🏥", layout="wide")
+st.set_page_config(page_title="CODENO1", page_icon="🏥", layout="wide")
 
 st.markdown("""
 <style>
@@ -95,10 +95,10 @@ st.markdown("""
     </div>
     <div style="font-size:36px;font-weight:700;color:#ffffff;margin-bottom:12px;
                 letter-spacing:-0.02em;">
-        Smart Hospital Patient Navigator
+        CODENO2
     </div>
     <div style="font-size:18px;color:rgba(255,255,255,0.85);font-weight:400;">
-        Find the Right Department for Your Symptoms
+        CODENO3
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -113,7 +113,7 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#0284c7;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">1</span>
-            <span style="font-size:16px;font-weight:600;color:#0c4a6e;">What are your main symptoms?</span>
+            <span style="font-size:16px;font-weight:600;color:#0c4a6e;">CODENO4</span>
             <span style="font-size:13px;color:#6b7280;font-style:italic;">select all that apply</span>
         </div>
     </div>
@@ -121,21 +121,21 @@ with st.form("triage_form"):
 
     c1, c2, c3, c4 = st.columns(4)
     with c1:
-        fever            = st.checkbox("🌡️  Fever")
-        cough            = st.checkbox("🤧  Cough")
+        fever            = st.checkbox("🌡️  CODENO5")
+        cough            = st.checkbox("🤧  CODENO6")
     with c2:
-        headache         = st.checkbox("🤕  Headache")
-        chest_pain       = st.checkbox("💔  Chest Pain")
+        headache         = st.checkbox("🤕  CODENO7")
+        chest_pain       = st.checkbox("💔  CODENO8")
     with c3:
-        stomach_pain     = st.checkbox("🤢  Stomach Pain")
-        shortness_breath = st.checkbox("😮‍💨  Shortness of Breath")
+        stomach_pain     = st.checkbox("🤢  CODENO9")
+        shortness_breath = st.checkbox("😮‍💨  CODENO10")
     with c4:
-        nausea_vomiting  = st.checkbox("🤮  Nausea / Vomiting")
-        dizziness        = st.checkbox("😵  Dizziness")
+        nausea_vomiting  = st.checkbox("🤮  CODENO11")
+        dizziness        = st.checkbox("😵  CODENO12")
 
     c5, _, _, _ = st.columns(4)
     with c5:
-        skin_rash = st.checkbox("🔴  Skin Rash")
+        skin_rash = st.checkbox("🔴  CODENO13")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -146,16 +146,16 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;">
             <span style="background:#7c3aed;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">2</span>
-            <span style="font-size:16px;font-weight:600;color:#3b0764;">How long have you had these symptoms?</span>
+            <span style="font-size:16px;font-weight:600;color:#3b0764;">CODENO14</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
     col_cc, col_dur = st.columns(2)
     with col_cc:
-        chief_complaint = st.selectbox("Chief complaint", options=list(cc_map.keys()))
+        chief_complaint = st.selectbox("CODENO15", options=list(cc_map.keys()))
     with col_dur:
-        duration = st.selectbox("Duration", options=list(dur_map.keys()), index=1)
+        duration = st.selectbox("CODENO16", options=list(dur_map.keys()), index=1)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -166,16 +166,16 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;">
             <span style="background:#ea580c;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">3</span>
-            <span style="font-size:16px;font-weight:600;color:#7c2d12;">How would you rate the severity?</span>
+            <span style="font-size:16px;font-weight:600;color:#7c2d12;">CODENO17</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
     col_temp, col_hr = st.columns(2)
     with col_temp:
-        temperature_level = st.selectbox("Temperature", options=list(temp_map.keys()), index=1)
+        temperature_level = st.selectbox("CODENO18", options=list(temp_map.keys()), index=1)
     with col_hr:
-        heart_rate_level  = st.selectbox("Heart rate", options=list(hr_map.keys()), index=1)
+        heart_rate_level  = st.selectbox("CODENO19", options=list(hr_map.keys()), index=1)
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -186,15 +186,15 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
             <span style="background:#059669;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">4</span>
-            <span style="font-size:16px;font-weight:600;color:#064e3b;">Do you have any of the following?</span>
+            <span style="font-size:16px;font-weight:600;color:#064e3b;">CODENO20</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
     ch1, ch2, ch3, _ = st.columns(4)
-    with ch1: hypertension  = st.checkbox("🩺 High Blood Pressure")
-    with ch2: heart_disease = st.checkbox("❤️ Heart Disease")
-    with ch3: asthma        = st.checkbox("💨 Asthma")
+    with ch1: hypertension  = st.checkbox("🩺 CODENO21")
+    with ch2: heart_disease = st.checkbox("❤️ CODENO22")
+    with ch3: asthma        = st.checkbox("💨 CODENO23")
 
     st.markdown("<br>", unsafe_allow_html=True)
 
@@ -205,18 +205,18 @@ with st.form("triage_form"):
         <div style="display:flex;align-items:center;gap:10px;">
             <span style="background:#475569;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">5</span>
-            <span style="font-size:16px;font-weight:600;color:#1e293b;">Patient Information</span>
+            <span style="font-size:16px;font-weight:600;color:#1e293b;">CODENO24</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
 
     col_age, col_gen = st.columns(2)
     with col_age:
-        age    = st.number_input("Age", min_value=1, max_value=120, value=35)
+        age    = st.number_input("CODENO25", min_value=1, max_value=120, value=35)
     with col_gen:
-        gender = st.selectbox("Gender", options=['Female', 'Male'])
+        gender = st.selectbox("CODENO26", options=['Female', 'Male'])
 
-    submitted = st.form_submit_button("Get AI Recommendation →")
+    submitted = st.form_submit_button("CODENO27 →")
 
 # ── Result ────────────────────────────────────────────────────────────────────
 if submitted:
@@ -252,8 +252,8 @@ if submitted:
 
     st.markdown("---")
     st.markdown("""
-    <div style="font-size:22px;font-weight:700;color:#111827;margin-bottom:4px;">AI Recommendation</div>
-    <div style="font-size:14px;color:#6b7280;margin-bottom:1.5rem;">Based on the information you provided</div>
+    <div style="font-size:22px;font-weight:700;color:#111827;margin-bottom:4px;">CODENO28</div>
+    <div style="font-size:14px;color:#6b7280;margin-bottom:1.5rem;">CODENO29</div>
     """, unsafe_allow_html=True)
 
     res_col, prob_col = st.columns([3, 2])
@@ -281,7 +281,7 @@ if submitted:
             {steps_html}
             <div style="margin-top:20px;padding:12px 16px;background:rgba(0,0,0,0.05);
                         border-radius:10px;font-size:12px;color:#6b7280;line-height:1.5;">
-                ⚠️ This is an AI suggestion, not a medical diagnosis. Please consult a doctor for further evaluation.
+                ⚠️ CODENO30
             </div>
         </div>
         """, unsafe_allow_html=True)
@@ -290,7 +290,7 @@ if submitted:
         st.markdown(f"""
         <div style="background:white;border:1px solid #e5e7eb;border-radius:16px;padding:24px;">
             <div style="font-size:14px;font-weight:600;color:#111827;margin-bottom:16px;">
-                Confidence by department
+                CODENO31
             </div>
         """, unsafe_allow_html=True)
 
@@ -322,7 +322,7 @@ if submitted:
         st.markdown(bars_html + """
             <div style="margin-top:20px;background:#eff6ff;border:1px solid #bfdbfe;
                         border-radius:10px;padding:12px 14px;font-size:12px;color:#1e40af;">
-                <strong>Model:</strong> KNN (k=7) · 102,000 patients · 99.5% accuracy<br>
+                <strong>Model:</strong>CODENO32<br>
                 <strong>Powered by:</strong> Future Classroom ML
             </div>
         </div>

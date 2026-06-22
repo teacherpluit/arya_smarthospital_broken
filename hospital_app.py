@@ -19,8 +19,7 @@ footer { visibility: hidden; }
 div[data-testid="stForm"] { border: none; padding: 0; }
 
 div.stButton > button {
-    /* COLOR1 (HEADINGS) */
-    background: linear-gradient(135deg, #000000, #434343) !important;
+    background: linear-gradient(135deg, #1a56db, #1e429f) !important;
     color: white !important; border: none !important;
     border-radius: 12px !important; padding: 0.75rem 2rem !important;
     font-size: 16px !important; font-weight: 600 !important;
@@ -88,7 +87,8 @@ DEPT_INFO = {
 
 # ── Hero Header ───────────────────────────────────────────────────────────────
 st.markdown("""
-<div style="background:linear-gradient(135deg,#1e3a8a 0%,#1a56db 60%,#0ea5e9 100%);
+<!-- COLOR1 -->
+<div style="background:linear-gradient(135deg,#000000 0%,#797979 60%,#ffffff 100%);
             padding:3rem 2rem 2.5rem;margin:-1rem -1rem 2rem;text-align:center;">
     <div style="font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);
                 text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px;">

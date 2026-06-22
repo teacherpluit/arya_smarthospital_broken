@@ -142,12 +142,12 @@ with st.form("triage_form"):
 
     # Section 2 — Duration & Complaint
     st.markdown("""
-    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;
+    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
-        <div style="display:flex;align-items:center;gap:10px;">
-            <span style="background:#475569;color:white;border-radius:8px;
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+            <span style="background:#25f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">2</span>
-            <span style="font-size:16px;font-weight:600;color:#1e293b;">CODENO14</span>
+            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO14</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -162,12 +162,12 @@ with st.form("triage_form"):
 
     # Section 3 — Severity
     st.markdown("""
-    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;
+    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
-        <div style="display:flex;align-items:center;gap:10px;">
-            <span style="background:#475569;color:white;border-radius:8px;
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+            <span style="background:#25f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">3</span>
-            <span style="font-size:16px;font-weight:600;color:#1e293b;">CODENO17</span>
+            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO17</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -182,12 +182,12 @@ with st.form("triage_form"):
 
     # Section 4 — Medical History
     st.markdown("""
-    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;
+    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
-            <span style="background:#475569;color:white;border-radius:8px;
+            <span style="background:#25f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">4</span>
-            <span style="font-size:16px;font-weight:600;color:#1e293b;">CODENO20</span>
+            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO20</span>
         </div>
     </div>
     """, unsafe_allow_html=True)
@@ -201,12 +201,12 @@ with st.form("triage_form"):
 
     # Section 5 — Patient Info
     st.markdown("""
-    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;
-                padding:20px 24px;margin-bottom:24px;">
-        <div style="display:flex;align-items:center;gap:10px;">
-            <span style="background:#475569;color:white;border-radius:8px;
+    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
+                padding:20px 24px;margin-bottom:20px;">
+        <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
+            <span style="background:#25f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">5</span>
-            <span style="font-size:16px;font-weight:600;color:#1e293b;">CODENO24</span>
+            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO24</span>
         </div>
     </div>
     """, unsafe_allow_html=True)

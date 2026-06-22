@@ -109,6 +109,7 @@ with st.form("triage_form"):
 
     # Section 1 — Symptoms
     st.markdown("""
+    <!-- COLOR2 -->
     <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
@@ -142,6 +143,7 @@ with st.form("triage_form"):
 
     # Section 2 — Duration & Complaint
     st.markdown("""
+    <!-- COLOR3 -->
     <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
@@ -162,6 +164,7 @@ with st.form("triage_form"):
 
     # Section 3 — Severity
     st.markdown("""
+    <!-- COLOR4 -->
     <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
@@ -182,6 +185,7 @@ with st.form("triage_form"):
 
     # Section 4 — Medical History
     st.markdown("""
+    <!-- COLOR5 -->
     <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
@@ -201,6 +205,7 @@ with st.form("triage_form"):
 
     # Section 5 — Patient Info
     st.markdown("""
+    <!-- COLOR6 -->
     <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
@@ -321,8 +326,9 @@ if submitted:
             </div>"""
 
         st.markdown(bars_html + """
-            <div style="margin-top:20px;background:#eff6ff;border:1px solid #bfdbfe;
-                        border-radius:10px;padding:12px 14px;font-size:12px;color:#1e40af;">
+            <!-- COLOR7 -->
+            <div style="margin-top:20px;background:#e90ee9;border:1px solid #ff0505;
+                        border-radius:10px;padding:12px 14px;font-size:12px;color:#1af250;">
                 <strong>Model:</strong>CODENO32<br>
                 <strong>Powered by:</strong> Future Classroom ML
             </div>

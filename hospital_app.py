@@ -88,7 +88,7 @@ DEPT_INFO = {
 # ── Hero Header ───────────────────────────────────────────────────────────────
 st.markdown("""
 <!-- COLOR1 -->
-<div style="background:linear-gradient(135deg,#000000 0%,#797979 60%,#ffffff 100%);
+<div style="background:linear-gradient(135deg,#f60606 0%,#4fff0a 60%,#c10cdd 100%);
             padding:3rem 2rem 2.5rem;margin:-1rem -1rem 2rem;text-align:center;">
     <div style="font-size:14px;font-weight:500;color:rgba(255,255,255,0.7);
                 text-transform:uppercase;letter-spacing:0.1em;margin-bottom:12px;">
@@ -109,12 +109,12 @@ with st.form("triage_form"):
 
     # Section 1 — Symptoms
     st.markdown("""
-    <div style="background:#f8fafc;border:1px solid #e2e8f0;border-radius:14px;
+    <div style="background:#f60909;border:1px solid #cbdc0d;border-radius:14px;
                 padding:20px 24px;margin-bottom:20px;">
         <div style="display:flex;align-items:center;gap:10px;margin-bottom:4px;">
-            <span style="background:#475569;color:white;border-radius:8px;
+            <span style="background:#25f20a;color:white;border-radius:8px;
                          padding:4px 10px;font-size:12px;font-weight:600;">1</span>
-            <span style="font-size:16px;font-weight:600;color:#1e293b;">CODENO4</span>
+            <span style="font-size:16px;font-weight:600;color:#105efa;">CODENO4</span>
             <span style="font-size:13px;color:#6b7280;font-style:italic;">select all that apply</span>
         </div>
     </div>
